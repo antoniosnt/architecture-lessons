@@ -1,6 +1,5 @@
-from orders.repository import OrderRepository
-
 from app.orders.model import OrderEntries
+from app.orders.repository import OrderRepository
 
 
 class OrderService:

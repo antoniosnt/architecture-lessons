@@ -3,7 +3,7 @@ from fastapi import APIRouter
 from app.orders.model import OrderEntries
 from app.orders.service import OrderService
 
-router = APIRouter("/orders")
+router = APIRouter(prefix="/orders")
 
 
 @router.post("/")
